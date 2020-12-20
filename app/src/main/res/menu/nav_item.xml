@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/market"
+        android:icon="@drawable/ic_market"
+        android:title="Market"
+        app:cnb_backgroundColor="#50A625"
+        app:cnb_iconColor="#FFFF"
+        app:cnb_textColor="#FFFF" />
+
+    <item
+        android:id="@+id/shopping"
+        android:icon="@drawable/ic_shopping"
+        android:title="Pay"
+        app:cnb_backgroundColor="#50A625"
+        app:cnb_iconColor="#FFFF"
+        app:cnb_textColor="#FFFF" />
+    <item
+        android:id="@+id/aaa"
+        android:icon="@drawable/ic_add_shop"
+        android:title="ADD"
+        app:cnb_backgroundColor="#50A625"
+        app:cnb_iconColor="#FFFF"
+        app:cnb_textColor="#FFFF" />
+    <item
+        android:id="@+id/bill"
+        android:icon="@drawable/ic_bill"
+        android:title="Bill"
+        app:cnb_backgroundColor="#50A625"
+        app:cnb_iconColor="#FFFF"
+        app:cnb_textColor="#FFFF" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_setting"
+        android:title="Profile"
+        app:cnb_backgroundColor="#50A625"
+        app:cnb_iconColor="#FFFF"
+        app:cnb_textColor="#FFFF" />
+
+</menu>

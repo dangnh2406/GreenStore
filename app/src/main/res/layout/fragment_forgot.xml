@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.poly.storegreen.frangment.ForgotFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.CreateAccountActivity">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#50A625"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circle"
+                        android:padding="10dp"
+                        android:src="@drawable/img_register"
+                        app:tint="@color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="FORGOT"
+                        android:textColor="@color/white"
+                        android:textSize="22sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/linearLayout1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-10dp"
+                    android:rotation="45"
+                    android:src="@drawable/square" />
+
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp">
+
+                    <ImageView
+                        android:background="#50A625"
+                        android:id="@+id/imgView_emailIcon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        android:padding="8dp"
+                        android:src="@drawable/img_email"
+                        app:tint="@color/white" />
+
+                    <EditText
+                        android:id="@+id/med_fEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imgView_emailIcon"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imgView_emailIcon"
+
+                        android:hint="Email"
+                        android:paddingLeft="20dp"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_fAccept"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLayout4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#50A625"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Accept"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</FrameLayout>

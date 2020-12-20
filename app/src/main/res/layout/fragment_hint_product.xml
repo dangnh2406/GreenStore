@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.poly.storegreen.frangment.HintProductFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/product_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/app"
+
+            app:civ_border_width="5dp" />
+
+        <TextView
+            android:id="@+id/nameProductHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="textColor"></TextView>
+
+        <TextView
+            android:id="@+id/priceProductHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="qua chuoi"></TextView>
+
+        <TextView
+            android:id="@+id/amountProductHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/describeProductHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/addDayProductHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+
+</FrameLayout>
